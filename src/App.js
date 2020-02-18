@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Battleship from './battleship/index';
+import Piano from './piano/index';
+import BookSearch from './bookSearch';
+import CardList from './cardList';
+import TicTacToe from './tic-tac-toe/index';
 
 function App() {
   return (
@@ -19,6 +24,20 @@ function App() {
           Learn React
         </a>
       </header>
+      <h2>One-sided Battleship exercise</h2>
+      <Battleship />
+      <br />
+      <h2>Simple keyboard</h2>
+      <Piano />
+      <br />
+      <h2>ISBN search</h2>
+      <BookSearch />
+      <br />
+      <h2>Card List</h2>
+      <CardList />
+      <br />
+      <h2>Tic Tac Toe</h2>
+      <TicTacToe />
     </div>
   );
 }
